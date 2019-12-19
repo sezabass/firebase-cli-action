@@ -1,0 +1,9 @@
+name: 'Firebase CLI Action'
+author: 'Cesar Castro'
+description: 'Enable firebase tools CLI, no command args needed'
+branding:
+  icon: 'package'
+  color: 'gray-dark'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
